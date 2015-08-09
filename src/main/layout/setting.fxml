@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="main.SettingSceneController">
+    <children>
+        <Button fx:id="mOkBtn" layoutX="270.0" layoutY="361.0" minWidth="50.0" mnemonicParsing="false" text="OK"/>
+        <Button fx:id="mCancelBtn" layoutX="327.0" layoutY="361.0" mnemonicParsing="false" text="Cancel"/>
+        <ChoiceBox fx:id="mTypeOfArrayBox" layoutX="28.0" layoutY="31.0" prefWidth="150.0"/>
+        <ChoiceBox fx:id="mSizeBox" layoutX="200.0" layoutY="31.0" prefWidth="150.0"/>
+        <Label layoutX="28.0" layoutY="14.0" text="Type of array data"/>
+        <Label layoutX="200.0" layoutY="14.0" text="Size"/>
+        <Label layoutX="200.0" layoutY="100.0"/>
+        <Label layoutX="200.0" layoutY="67.0" text="Time"/>
+        <ChoiceBox fx:id="mTimeBox" layoutX="200.0" layoutY="84.0" prefWidth="150.0"/>
+    </children>
+</AnchorPane>
